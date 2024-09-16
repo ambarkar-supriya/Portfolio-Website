@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="style.css" rel="stylesheet">
+    <title>My Portfolio | Contact Me</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <a href="home.html" class="logo">Ambarkar Supriya</a>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" id="menu-icon"><i class="bx bx-menu"></i></label>
+
+        <nav>
+            <a href="home.html"    target="_self" class="nav-btn ">Home</a>
+            <a href="aboutme.html" target="_self"  class="nav-btn" >About Me</a>
+            <a href="contact.html" target="_self" class="nav-btn active">Contact</a>
+            <a href="gallery.html" target="_self" class="nav-btn">Gallery</a>
+        </nav>
+    </header>
+
+    <section class="active" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="mailto:supriyambarkar@gmail.com" method="post" enctype="text/plain" target="_blank">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+     <!-- Footer Section -->
+    <footer class="footer">
+        <p class="copyright">
+            &copy; Ambarkar Supriya | @2024 All Rights Reserved
+        </p>
+    </footer>
+</body>
+</html>
