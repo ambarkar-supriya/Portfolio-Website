@@ -1,4 +1,4 @@
-# Portfolio-assignment
+# My Portfolio
 
 I have created 4 HTML pages:
 - Home Page
